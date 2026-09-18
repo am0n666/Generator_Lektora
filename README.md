@@ -25,3 +25,7 @@ Przy pierwszym użyciu wybierz **Instalacja / naprawa komponentów**. Program po
 
 ### Test głosu
 W oknie Ustawienia dostępny jest przycisk „Testuj głos”. Pozwala wybrać głos M1–M5/F1–F5, wpisać tekst i odsłuchać próbkę wygenerowaną przez zainstalowany Supertonic 3. Test działa asynchronicznie i nie blokuje interfejsu.
+
+
+## v11
+Voice test runs at Idle process priority and limits ONNX/OpenMP worker threads to reduce UI starvation during Supertonic synthesis.
